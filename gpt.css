@@ -1,0 +1,23 @@
+button.baro {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background: #0037ff;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    text-shadow: #0000;
+    cursor: pointer;
+}
+  
+  

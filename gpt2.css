@@ -1,0 +1,29 @@
+button.baro {
+    background-image: linear-gradient(to right, #ee0979, #ffe600);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgba(255, 106, 0, 0.4);
+    transition: all 0.2s ease-in-out;}
+
+    .button.baro:hover {
+        transform: scale(1.05); /* 마우스를 올리면 버튼이 커지는 애니메이션 */
+        box-shadow: 0px 0px 30px rgba(255, 106, 0, 0.7); /* 그림자 강화 */
+      }
+      
+      .button.baro:active {
+        transform: scale(0.95); /* 버튼이 클릭될 때 작아지는 애니메이션 */
+        box-shadow: none; /* 그림자 제거 */
+      }
+
+      .block-button {
+        display: block;
+        margin: 10px 0;
+      }
